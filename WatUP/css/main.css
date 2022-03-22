@@ -1,0 +1,193 @@
+body
+{
+   
+    padding: 0;
+    margin: 0;
+    font-family: 'Anton', sans-serif;
+    color: 000;
+    font-size: 16px;
+} 
+
+h1,h2,h3,h4,h5,h6
+{
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+ul, li
+{
+    display: block;
+    padding: 0px;
+    margin: 0px;
+}
+.container
+{ 
+width: 1170px; 
+/* позиционирования по центру */
+margin: auto;
+}
+/* HEADER */
+.header
+{
+    background: url('../img/header-bg.jpg') no-repeat center top /cover;
+    padding-top: 57px;
+    color: #fff;
+    padding-bottom: 322px;
+}
+
+header a
+{
+    color: #FFFFFF;
+}
+.nav
+{
+    display: flex;
+    align-items: center;
+    
+}
+.menu
+{
+display: flex;
+letter-spacing: 0.1em;
+font-family: Anton ;
+}
+
+.logo
+{
+       margin-right: 69px;
+}
+
+.menu li a
+{
+    text-transform: uppercase; 
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.menu li
+/* margin создає пустоту в тій стороні в яку вказуєш */
+{
+    margin-right: 40px;
+   
+}
+
+.tel
+{
+    font-size: 17px;
+    text-decoration: none;
+    margin-left: auto ;
+    letter-spacing: 0.1em;
+
+}
+/* HEADER MAIN */
+.header_main
+{
+    margin-top: 216px;
+    margin-bottom: 322;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+.not_tne_event
+{
+margin-top: 216px;
+margin-bottom: 0px;
+font-size: 30px;
+}
+
+.burning_man
+{
+margin-top: -3px;
+padding-bottom: 37px;
+font-size: 100px;
+line-height: 151px
+}
+
+.book_the_tickets
+{
+
+display: block;
+text-decoration: none;
+font-size: 17px;
+text-align: center;
+letter-spacing: 0.1em;
+padding: 17px 23px;
+border: 1px solid #fff; 
+width: 191px
+
+}
+.book_the_tickets:hover
+{
+    background-color: white;
+    color: #000000;
+    transition: all 1s ease;
+}
+
+/* SECTION ABOUT THE EVENT */
+
+.about_the_event
+{
+    margin-top:125px ;
+    font-size: 50px;
+    line-height: 75px;
+    text-transform: uppercase;
+    color: #000000;
+
+}
+.main_information
+{
+    display: flex;
+    margin-top: 74px;
+    color: #000000;
+    justify-content: space-between;
+    
+}
+.main_information h3
+{
+    
+    margin-right: 300;
+    font-size: 25px;
+    line-height: 38px;
+    text-transform: uppercase;
+}
+.main_information p
+{   
+    width: 564px;
+    justify-content: space-between;
+    padding-top: 19px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    line-height: 26px;
+    text-align: justify;
+    
+    
+}
+
+
+.images
+{
+    margin-top: 67px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* FOOTER */
+.container_footer
+{
+    display: flex;
+    margin-top: 114px;
+    margin-bottom: 80px;
+    font-family: 'Open Sans';
+    
+}
+.container_footer p
+{
+    margin-right: 55px;
+    font-family: 'Open Sans';
+    font-size: 15px;
+    line-height: 20px;
+    color: #000000; 
+}
+
+
